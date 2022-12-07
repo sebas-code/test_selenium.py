@@ -25,3 +25,4 @@ class TestTESTCONTACTMAIL():
     #Accedemos con un click al "linkText=info@rescatewildlife.org" esto para enviar la solicitud o peticion deseada para el caso
     self.driver.set_window_size(1512, 847) 
     self.driver.find_element(By.LINK_TEXT, "info@rescatewildlife.org").click()
+  
